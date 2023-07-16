@@ -5,13 +5,14 @@ seoDescription: "What is DevOps, why DevOps is important Automation, Scaling and
 datePublished: Sat Jul 15 2023 17:25:54 GMT+0000 (Coordinated Universal Time)
 cuid: clk3trksg000509k187mp91ts
 slug: introduction-to-devops
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689500100543/ae2c0b2a-7671-490c-af80-7a98235561ac.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689414361914/575df691-c119-41dd-bffd-c4121a4cd233.png
 tags: aws, devops, cicd, 90daysofdevops, trainwithshubham
 
 ---
 
 ---
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689501197539/caab9e95-600c-4b43-9d8e-7d308295fb9d.png align="center")
 
 ## **What is DevOps?**
 
