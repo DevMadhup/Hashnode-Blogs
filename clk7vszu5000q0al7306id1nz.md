@@ -24,13 +24,15 @@ Let's look at this basic example of shell script,
 
 Steps:
 
-1) Create a new file and open the file,
+1. Create a new file and open the file,
+    
 
 ```plaintext
 vi echo.sh
 ```
 
-2) Enter the following code,
+1. Enter the following code,
+    
 
 ```plaintext
 #!/bin/bash
@@ -41,19 +43,22 @@ vi echo.sh
 echo "I will be a great DevOps Engineer"
 ```
 
-3) Save the file with the following,
+1. Save the file with the following,
+    
 
 > Esc + :wq
 
 Here, the "echo" command will print "I will be a great DevOps Engineer" on the terminal.
 
-4) Give execute permission to the file,
+1. Give execute permission to the file,
+    
 
 ```plaintext
 chmod 777 echo.sh
 ```
 
-5) execute a shell script with the following command,
+1. execute a shell script with the following command,
+    
 
 ```plaintext
 ./echo.sh
@@ -126,7 +131,7 @@ Execute it with,
 ./input.sh madhup pandey
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689658831136/3bb14676-882f-4940-8f1a-76ea664e0bb2.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689660536943/08d27052-3931-414e-a717-991858b39ec5.png align="center")
 
 ---
 
