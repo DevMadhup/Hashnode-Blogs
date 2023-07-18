@@ -1,6 +1,6 @@
 ---
 title: "Basic Linux Shell Scripting for DevOps Engineers"
-seoTitle: "Shell Scripting, Linux, bash, 90daysofdevops"
+seoTitle: "Basic Shell Scripting for DevOps"
 seoDescription: "Shell Scripting, Linux, bash, 90daysofdevops"
 datePublished: Tue Jul 18 2023 05:56:16 GMT+0000 (Coordinated Universal Time)
 cuid: clk7vszu5000q0al7306id1nz
