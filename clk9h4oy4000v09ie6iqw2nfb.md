@@ -6,7 +6,6 @@ datePublished: Wed Jul 19 2023 08:41:00 GMT+0000 (Coordinated Universal Time)
 cuid: clk9h4oy4000v09ie6iqw2nfb
 slug: advanced-linux-shell-scripting-for-devops-engineers-with-user-management
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689755996895/2918075d-570f-469d-a31a-92956fa17f9f.jpeg
-tags: devops, shell-script, 90daysofdevops, trainwithshubham
 
 ---
 
