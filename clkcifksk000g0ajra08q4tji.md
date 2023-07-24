@@ -10,6 +10,8 @@ tags: docker, devops, jenkins, 90daysofdevops, trainwithshubham
 
 ---
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690176271437/bcff8224-efa7-4637-b58e-0fa73d253ae4.png align="center")
+
 ## How to install docker on Ubuntu
 
 To, install docker on Ubuntu, just run the following commands,
