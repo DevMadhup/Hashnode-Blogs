@@ -96,7 +96,8 @@ If above command doesn't work, follow the below steps
 * Create a personal access token for your GitHub repository,
     
 
-1) Go to Settings &gt; Developer Settings &gt; Personal Access Tokens (Classic) &gt; Generate New Token (Classic)
+1. Go to Settings &gt; Developer Settings &gt; Personal Access Tokens (Classic) &gt; Generate New Token (Classic)
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690177661201/4b6d82ee-49d9-48c8-8361-1503134489bc.png align="center")
 
@@ -113,4 +114,8 @@ If above command doesn't work, follow the below steps
 
 [https://&lt;github\_personal\_accessToken&gt;@github.com/DevMadhup/90DaysOfDevOps.git](https://github.com/DevMadhup/90DaysOfDevOps.git)
 
-* Now Push to repository.
+```plaintext
+sudo git remote seturl origin https://<github_accessstoken>@github.com/DevMadhup/90DaysofDevOps.git
+```
+
+* Now Push to the repository.
