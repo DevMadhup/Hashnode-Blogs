@@ -32,7 +32,7 @@ This is first feature of our application
 
 ```plaintext
 sudo git add Version01.txt
-sudo git commit -m "Added new feature" 
+sudo git commit -m "Added new feature"
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690369613362/f7671951-695f-43b3-bd4f-1cff2f5a36f7.png align="center")
@@ -95,7 +95,7 @@ Now, we have to get rid of last two lines, to recover use below steps,
     
 
 ```plaintext
-sudo git log 
+sudo git log
 ```
 
 copy commit id which you want to revert and use below command,
@@ -109,3 +109,70 @@ sudo git revert a53c29
 You have successfully reverted back to previous version of your code
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690369963094/baf1c121-94a4-4a06-a4ca-5d3384007647.png align="center")
+
+---
+
+## Demonstrate the concept of branches with 2 or more branches with a screenshot
+
+Git branching is used to take a clone of a code and implement new ideas and bug fixes without disturbing the main branch.
+
+* To create new branch,
+    
+
+```plaintext
+sudo git branch Develop
+```
+
+To check whether branch is created or not,
+
+```plaintext
+sudo git branch 
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690372183556/0fa936b5-0958-4911-92b1-c34fe9203b5b.png align="center")
+
+* To switch between branches
+    
+
+> sudo git checkout &lt;branch\_name&gt;
+
+In our case, we have branch named "Develop" so,
+
+```plaintext
+sudo git checkout Develop
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690372336322/f0566692-e240-48e5-9047-3e06f2161656.png align="center")
+
+---
+
+## add some changes to `dev` branch and merge that branch in `master`
+
+* In Develop branch we have this content in the "Version01.txt" file,
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690372531590/ea8bd6f5-a6aa-45a6-b794-424d0e747575.png align="center")
+
+* Switch to the main branch and merge the changes of Develop branch,
+    
+
+> Before merging in Version01.txt file
+> 
+> We have only one line of code in the file
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690372652674/06cee013-73b0-4813-a660-478133ba11dc.png align="center")
+
+> After merging the code from Develop branch
+
+* To merge code from another branch, we use
+    
+
+```plaintext
+sudo git merge <branch_name>
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690372777789/6be12a80-f78a-4a67-ae17-54f78c3e1c9b.png align="center")
+
+Here, we can see Versio01.txt file has changes and there is 2++ indicates there is 2 insertions (+)
+
+Now, **cat Version01.txt** to verfiy changes.
